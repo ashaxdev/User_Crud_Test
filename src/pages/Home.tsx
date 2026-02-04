@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import UserForm from "../components/UserForm";
 import UserList from "../components/UserList";
 import type { User } from "../types/User";
-import { Button, Stack } from "@mui/material";
 
 import {
   getUsers,
