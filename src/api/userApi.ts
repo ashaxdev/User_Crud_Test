@@ -2,7 +2,7 @@ import axios from "axios";
 import type { User } from "../types/User";
 
 
-const API_URL = "http://localhost:3001/users";
+const API_URL = "https://user-crud-test-urq2.onrender.com/users";
 
 export const getUsers = () => axios.get<User[]>(API_URL);
 export const createUser = (user: User) => axios.post(API_URL, user);
