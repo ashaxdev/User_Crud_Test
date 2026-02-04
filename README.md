@@ -113,7 +113,7 @@ TypeScript for better maintainability and safety
 🌐 Deployment
 The application can be deployed on:
 
-GitHub Pages
+Vercel
 
 Build command:
 
